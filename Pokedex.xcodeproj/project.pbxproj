@@ -11,6 +11,10 @@
 		8481B83829B21D7F0090FC73 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8481B83729B21D7F0090FC73 /* ContentView.swift */; };
 		8481B83A29B21D800090FC73 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8481B83929B21D800090FC73 /* Assets.xcassets */; };
 		8481B83D29B21D800090FC73 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8481B83C29B21D800090FC73 /* Preview Assets.xcassets */; };
+		8481B84729B222DD0090FC73 /* PokemonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8481B84629B222DD0090FC73 /* PokemonCell.swift */; };
+		8481B84A29B228FE0090FC73 /* PokedexView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8481B84929B228FE0090FC73 /* PokedexView.swift */; };
+		8481B84C29B235060090FC73 /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8481B84B29B235060090FC73 /* Pokemon.swift */; };
+		8481B84E29B23A1D0090FC73 /* PokemonViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8481B84D29B23A1D0090FC73 /* PokemonViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		8481B83729B21D7F0090FC73 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8481B83929B21D800090FC73 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8481B83C29B21D800090FC73 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8481B84629B222DD0090FC73 /* PokemonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonCell.swift; sourceTree = "<group>"; };
+		8481B84929B228FE0090FC73 /* PokedexView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokedexView.swift; sourceTree = "<group>"; };
+		8481B84B29B235060090FC73 /* Pokemon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
+		8481B84D29B23A1D0090FC73 /* PokemonViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +81,8 @@
 		8481B84329B21DD40090FC73 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				8481B84629B222DD0090FC73 /* PokemonCell.swift */,
+				8481B84929B228FE0090FC73 /* PokedexView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -80,6 +90,7 @@
 		8481B84429B21DDB0090FC73 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				8481B84B29B235060090FC73 /* Pokemon.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -87,6 +98,7 @@
 		8481B84529B21DE40090FC73 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				8481B84D29B23A1D0090FC73 /* PokemonViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -161,8 +173,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8481B84C29B235060090FC73 /* Pokemon.swift in Sources */,
 				8481B83829B21D7F0090FC73 /* ContentView.swift in Sources */,
+				8481B84E29B23A1D0090FC73 /* PokemonViewModel.swift in Sources */,
 				8481B83629B21D7F0090FC73 /* PokedexApp.swift in Sources */,
+				8481B84729B222DD0090FC73 /* PokemonCell.swift in Sources */,
+				8481B84A29B228FE0090FC73 /* PokedexView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
